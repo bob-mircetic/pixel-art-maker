@@ -1,0 +1,21 @@
+h1 {color:red}
+
+.container {
+    background: black;
+    display: inline-block;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(2, 80px);
+    grid-gap: 5px;
+  }
+  .cell {
+    background: white;
+  }
+ 
